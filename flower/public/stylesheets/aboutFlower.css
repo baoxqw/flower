@@ -1,0 +1,47 @@
+#list-banner>img{
+	
+	width: 90%;
+	
+	margin: 40px auto;
+}
+
+#introduce{
+	width: 90%;
+	margin: 0 auto;
+	min-height: 700px;
+}
+.intro-lef>.intro-logo{
+	box-sizing: border-box;
+	padding-top: 40px;
+	height: 120px;
+	border-bottom:1px solid #eee ;
+	margin-bottom: 30px;
+}
+.intro-logo>h1{
+	height: 30px;
+}
+.intro-logo>p{
+	color: #c0c0c0;
+}
+.intro-lef>p{
+	
+	line-height: 27px;
+	font-size: 14px;
+	color: #8b8080;
+	margin-bottom: 30px;
+}
+.intro-rig{display: none}
+/* ------------媒体查询-------------- */
+@media screen and (min-width:768px){
+	
+}
+@media screen and (min-width:1024px){
+	.intro-lef{width:70%;float: left}
+	.intro-rig{display: block; width:25%;float: right;}
+	.intro-rig>img{margin: 10px auto}
+}
+@media screen and (min-width:1200px){
+	.intro-lef{width:70%;float: left}
+	.intro-rig{display: block; width:25%;float: right;}
+	.intro-rig>img{margin: 10px auto}
+}

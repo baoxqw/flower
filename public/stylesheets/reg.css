@@ -1,0 +1,185 @@
+#reg-main-wrap{
+	width: 100%;
+	overflow: hidden;
+	background:url(../images/08.jpg) no-repeat center center/100% 100%;
+}
+.reg-main{
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 345px;
+	min-height: 630px;
+	background: #eaeaea;
+	box-sizing: border-box;
+	padding:46px 24px;
+
+}
+form{
+	
+	overflow: hidden;
+	width: 325px;
+	
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+
+.reg>div>input{
+	background: #f5f5f5;
+	border: 1px solid #dddddd;
+	border-radius:5px;
+	display: block;
+	height: 33px;
+	width: 171px;
+}
+
+.reg>p{
+	color: #888888;
+	margin: 10px auto;
+	width: 200px;
+}
+.deng{
+	display: inline-block;
+	width: 300px;
+	height: 33px;
+	margin-top: 10px;
+	border: 0;
+	border-radius:5px;
+	font-size: 15px;
+}
+a>.deng{
+	display: inline-block;
+	width: 219px;
+	height: 33px;
+	margin-top: 10px;
+	border: 0;
+	border-radius:5px;
+	font-size: 15px;
+}
+input[type="button"]{
+	color: #000;
+	background: #fff
+}
+input[type="submit"]{
+	color: #fff;
+	background: #000;
+}
+.per{
+	background: pink;
+	margin-top:30px ;
+}
+.di>p{
+	float: left;
+	line-height: 33px;
+	font-size: 14px;
+	color: #888888;
+}
+.di>img{
+	float: left;
+	vertical-align: middle;
+}
+.per>span{
+	float: right;
+	width: 150px;
+	height: 50px;
+	line-height: 80px;
+	
+}
+.shu{
+	margin-top: 30px;
+}
+/* ------------注册------------ */
+
+b{
+	color: red;
+	/* margin-top: 7px; */
+	margin-left: 5px;
+}
+.reg>.huo>input{
+	display: inline-block;
+	width: 171px;
+}
+.tishi{
+	
+	height: 35px;
+	padding-left: 5px;
+	line-height: 35px;
+	color: red;
+}
+.huo>span{
+	display: inline-block;
+	height: 33px;
+	width: 53px;
+	 /* margin-top: 36px;  */
+	margin-left: -53px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 33px;
+}
+@media screen and (min-width:768px){
+	nav{width:760px;margin:0 auto;}
+	/* nav>#two{display: none;}			 */
+	nav>.in{width:760px;}
+	nav>.in>.info>li{width:760px;}
+	.foot{display: none}
+	footer>.ul-01{display: block}
+	#banner>ul{display: none}
+	.login-main{width:90%;}
+	form{width:100%;}
+	label{display: inline-block;}
+	.first>input{display: inline-block}
+	}
+
+	/* #top,nav>ul{display:block;}	 */
+	
+/* -------响应式------- */	
+ @media screen and (min-width:1024px){
+	nav{width:900px;margin:0 auto;}
+	footer{width:900px;margin:0 auto;}
+	nav>#two{display: none;}			
+	nav>.in{display: none;}	
+	#top{display: block}
+	#banner>ul{display: block}
+	nav>ul{display: block}
+	.login-main{width:470px;margin:50px auto;}
+	.reg-main{width:470px;margin:50px auto;}
+	.login-main>form{width:440px;}
+	.first>label{float: left}
+	.first>input{float: left}
+	.login{overflow: hidden}
+	.first{margin-top:7px;height:70px;}
+	.login>p{margin-left:200px;}
+	.login>input{width:59px;height:32px;display: inline-block}
+	.reg>p{margin:20px 0;}
+	.reg>input[type="submit"]{width:59px;height:32px;display: inline-block}
+	.reg>input[type="button"]{width:173px;height:32px;
+		display: inline-block;}
+	} 
+@media screen and (min-width:1200px){
+	#top{width: 1180px;display: block;}	
+	footer{width:1180px;margin:0 auto;}		
+	nav{width:1180px;margin:0 auto;}
+	nav>#two{display: none;}			
+	nav>.in{display: none;}			
+	nav>ul{display: block;}	
+	footer>.ul-01{display: block}
+	.login-main{width:470px;margin:50px auto;}
+	.reg-main{width:470px;margin:50px auto;}
+	.login-main>form{width:440px;}
+	.login{overflow: hidden}
+	.login>p{margin-left:200px;}
+	.first{margin-top:7px;height:70px;}
+	.first>label{float: left}
+	.first>input{float: left}
+	.login>input{width:59px;height:32px;display: inline-block}
+	.reg>p{margin:20px 0;}
+	.reg>input[type="submit"]{width:59px;height:32px;display: inline-block}
+	.reg>input[type="button"]{width:200px;height:32px;
+		display: inline-block;margin-left:150px;}
+	 
+	}

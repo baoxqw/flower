@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>login</title>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/login.css">
+</head>
+<body>
+	<!-- ---top--- -->
+	<div id="top-wrap">
+		<div id="top">
+			<div class="timer">
+				<img src="images/zai.jpg" alt="">
+				<span>在线时间 08:30~21:30&nbsp;&nbsp;</span>
+				<span>&nbsp;&nbsp;欢迎访问花语在线商城</span>
+			</div>
+			<div class="pic">
+				<img src="images/search.jpg" class="pic-01">
+				<img src="images/people.jpg" class="pic-02">
+				<img src="images/car.jpg" class="pic-03">
+			</div>
+		</div>
+	</div>
+	<!-- -------遮罩层---- -->
+	<div class="zhe-wrap">
+		<div class="zhe-main">
+			<input type="text" placeholder="输入关键字" autofocus="autofocus" />
+			<p>
+				<span>
+					<a href="http://www.baidu.com">确定</a>
+				</span>
+				<span id="zhe-close">取消</span>
+			</p>
+		</div>
+	</div>
+	<!-- ---nav--- -->
+	<div id="nav-wrap">
+		<nav>
+	   		<h1>
+	   			<a href="index">
+	   				<img src="images/02.png" alt="">
+	   			</a>
+	   		</h1>
+	   		<div id="two">
+	   			<p>登录/注册</p>
+	   			<span><img src="images/down.png" class="down"></span>	   			
+	   		</div>
+	   		<div class="in">
+	   			<ul class="info">
+	   				<li>商城首页</li>
+		   			<li>所有商品</li>
+		   			<li>支付方式</li>
+		   			<li>关于花语</li>
+		   			<li>线下门店</li>
+	   			</ul>
+	   		</div>
+	   		<ul>
+	   			
+	   			<li>
+	   				<a href="index">
+	   					商城首页
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodslist">
+	   					所有商品
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodslist">
+	   					支付方式
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="aboutFlower">
+	   					关于花语
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodslist">
+	   					线下门店
+	   				</a>	   				
+	   			</li>
+	   			
+	   		</ul>
+		</nav>
+	</div>
+	<!-- ------------login-main----- -->
+	<div id="login-main-wrap">
+		<div class="login-main">
+			<form action="login" method="post" >
+				<div class="login">
+					<div class="first">
+						<label for="username">
+						手机/用户名/邮箱
+						</label>
+						<input type="text" name="username" value="" id="username">
+					</div>
+					<div class="first second">
+						<label for="userpass">
+						密码
+						</label>
+						<input type="password" name="userpass" value="" id="userpass">
+					</div>
+					<p class="reme">
+						<input type="checkbox" name="">
+						记住我，(请在私人电脑上使用此功能)
+					</p>
+					<h3 class="error"><%=errMsg%></h3>
+					<a href="#">
+						<input class="deng login-deng" type="submit" name="" value="登录">
+					</a>
+					
+					<a href="reg" class="denga">
+						<input class="deng login-zhu" type="button" name="" value="注册">
+					</a>
+					
+					<div class="per">
+						<div class="di">
+							<p>第三方账号登录：</p>
+							<img src="images/qq.png"/>
+						</div>					
+						<span>忘记密码？这里能找回</span>
+					</div>
+				</div>
+			</form>
+			
+			<div class="shu">
+				<p>用户注册/登录说明：</p>
+				<p>1、演示用户名：demouser；密码： demo1234</p>
+				<p>2、实际使用之前，需配置用户管理组件中的相关邮件。详情请参考教程：《用户管理中相关邮件的配置》
+				</p>
+				<p>3、新用户注册后的审核方式有三种：自动核准、邮件激活、需要管理员批准（即人工审核），详情可参考教程《如何设置用户注册后的审核方式》</p>
+				
+			</div>
+		</div>
+	</div>
+		<!-- ---footer--- -->
+	<div id="footer-wrap">
+		<footer class="cols" aos="fade-in" aos-duration="3000">
+			<div class="foot">				
+					<img src="images/car.png"/>
+						<div class="ff">
+							<p>满100元全国包邮</p>
+							<span>全场订单满100元全国包邮</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/present.png"/>
+						<div class="ff">
+							<p>下单送精美礼品</p>
+							<span>本店购买任意商品增送精美礼品</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/girl.png"/>
+						<div class="ff">
+							<p>贴心的售后服务</p>
+							<span>本店购买任意商品增送精美礼品</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/bi.png"/>
+						<div class="ff">
+							<p>店铺优惠券</p>
+							<span>全场订单满100元全国包邮</span>
+						</div>														
+			</div>
+			<ul class="ul-01">
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						<p>消费者保障服务</p>
+						<p>七天无理由退换</p>
+						<p>假一赔三</p>
+					</div>					
+				</li>
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<img src="images/02.png" class="hua ">
+				</li>
+				<li>
+					<h2>About Change</h2>
+					<div class="yin">
+						<img src="images/yin.png" alt="">
+						<img src="images/dui.png" alt="">
+						<img src="images/zhi.png" alt="">
+					</div>
+				</li>
+				<li>
+					<h2>Online Payment</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<h2>WeChat</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<h2>Social App</h2>
+					<div>
+						<img src="images/social.jpg" alt="">
+					</div>
+				</li>
+			</ul>
+			<ul class="ul-01 ul-02">
+			    <li>
+			    	<h2>WeCh关于产品at</h2>
+					<div class="jun">
+						<p>about color</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			     <li>
+			    	<h2>关于退货</h2>
+					<div class="jun">
+						<p>about change</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			     <li>
+			    	<h2>关于产品</h2>
+					<div class="jun">
+						<p>about change</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			    <li>
+			    	<h2>扫二维码关注</h2>
+			    	<span>about change</span>
+			    	<img src="images/er.jpg" alt="">
+			    	<p>搜索微信号：HUAYU</花语文化p>
+			    </li>
+			</ul>
+			<p>CoppyRight &copy;2020 2015花语文化传播有限公司All Right Reserved</p>
+		</footer>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="javascripts/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+	// -----二级菜单
+ $(function(){
+ 	$(".down").click(function () {
+
+		$(".in").slideToggle(2000)
+	});
+	 
+	 // 遮罩层
+	 $(".pic-01").click(function(){
+	 	$(".zhe-wrap")[0].style.display="block"
+	 });
+	 $("#zhe-close").click(function(){
+	 	$(".zhe-wrap")[0].style.display="none"
+	 });
+	 // 登录
+	 // $(".login-deng").click((function)(){
+	 // 	window.location.href="reg.html"
+	 // })
+
+ })
+
+</script>

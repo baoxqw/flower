@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">	 	
+	<title>在线花店</title>	
+	<link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/goodsdetail.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/m_animate.css"/>
+
+</head>
+<body>
+	<!-- -----------顶部悬浮---------- -->
+	<div id="xuan-wrap">
+		<div id="top-xuan">
+			<ul>
+	   			<li>商城首页</li>
+		   		<li>所有商品</li>
+		   		<li>支付方式</li>
+		   		<li>关于花语</li>
+		   		<li>线下门店</li>
+	   		</ul>
+		</div>
+	</div>
+	<!-- ---top--- -->
+	<div id="top-wrap">
+		<div id="top">
+			<div class="timer">
+				<img src="images/zai.jpg" alt="">
+				<span>在线时间 08:30~21:30&nbsp;&nbsp;</span>
+				<span>&nbsp;&nbsp;欢迎访问花语在线商城</span>
+			</div>
+			<div class="pic">
+				<img src="images/search.jpg" class="pic-01">
+				
+				<a href="login">
+					<img src="images/people.jpg" class="pic-02">
+				</a>
+				<img src="images/car.jpg" class="pic-03">
+			</div>
+		</div>
+	</div>
+	<!-- -------遮罩层---- -->
+	<div class="zhe-wrap">
+		<div class="zhe-main">
+			<input type="text" placeholder="输入关键字" autofocus="autofocus" />
+			<p>
+				<span>
+					<a href="http://www.baidu.com">确定</a>
+				</span>
+				<span id="zhe-close">取消</span>
+			</p>
+		</div>
+	</div>
+	<!-- ---nav--- -->
+	<div id="nav-wrap">
+		<nav>
+	   		<h1>
+	   			<a href="index">
+	   				<img src="images/02.png" alt="">
+	   			</a>
+	   		</h1>
+	   		<div id="two">
+	   			<p>首页</p>
+	   			<span><img src="images/down.png" class="down"></span>	   			
+	   		</div>
+	   		<div class="in">
+	   			<ul class="info">
+	   				<li>商城首页</li>
+		   			<li>所有商品</li>
+		   			<li>支付方式</li>
+		   			<li>关于花语</li>
+		   			<li>线下门店</li>
+	   			</ul>
+	   		</div>
+	   		<ul>
+	   			
+	   			<li>
+	   				<a href="index">
+	   					商城首页
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodlist">
+	   					所有商品
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodlist">
+	   					支付方式
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="aboutFlower">
+	   					关于花语
+	   				</a>	   				
+	   			</li>
+	   			<li>
+	   				<a href="goodlist">
+	   					线下门店
+	   				</a>	   				
+	   			</li>
+	   			
+	   		</ul>
+		</nav>
+	</div>
+	<div id="detail-wrap">
+		<div id="detail-mian">
+			<div class="deteilLeft">
+				<div class="desri">
+					<div id="enlarge-box">
+				        <div id="large-box">
+				            <img src="goodsdetail." id="large-img">
+				        </div>
+				        <div id="middle-box">
+				            <img src="images/list-01.jpg" id="middle-img">
+				            <div id="shadow"></div>
+				        </div>
+				        <div id="small-box">
+				            <img src="images/list-01.jpg" class="active" style="margin-left: 2.7%">
+				            <img src="images/list-02.jpg">
+				            <img src="images/list-03.jpg">
+				            <img src="images/list-04.jpg">
+				        </div>
+	    			</div>
+	    			<div id="detail-des">
+	    				<h2><span><%=goodsName%></span>001</h2>
+						<h1><%=goodsPrice%></h1>
+						<p>商品编号：070047</p>
+						<p style="border:0">分类：<span>所有商品</span></p>
+						<div class="car">
+							<input type="button" name="" value="加入购物车" id="joinCar">
+							<div class="button">
+								<button type="">-</button>
+								<button type="">1</button>
+								<button type="">+</button>
+							</div>
+						</div>						
+    				</div>
+				</div>
+				<div id="common">
+					<h2>用户评论</h2>
+					<div class="speck">
+						<input type="text" name="" placeholder="有什么想说的？">
+						<input type="button" value="提交">
+						<div class="common">
+							
+							<dl>
+								<dt><img src="images/bao.jpg" alt="">:</dt>
+								<dd>还不错，挺好看的															
+								</dd>
+							</dl>
+							<hr>
+						</div>
+						
+
+					</div>
+				</div>
+    			<div class="about">
+    				<h2>相关商品</h2>
+    				<ul class="goodslist">
+					    <li style="margin-left:1%">
+					    	<dl>
+					    		<dt>
+					    			<img src="images/list-01.jpg">
+					    		</dt>
+					    		<dd>
+					    			<p>植物花卉001</p>
+					    			<span>￥5900</span>
+					    		</dd>
+					    	</dl>
+					    </li>
+					    <li>
+					    	<dl>
+					    		<dt>
+					    			<img src="images/list-02.jpg">
+					    		</dt>
+					    		<dd>
+					    			<p>植物花卉002</p>
+					    			<span>￥5900</span>
+					    		</dd>
+					    	</dl>
+					    </li>
+					    <li>
+					    	<dl>
+					    		<dt>
+					    			<img src="images/list-03.jpg">
+					    		</dt>
+					    		<dd>
+					    			<p>植物花卉003</p>
+					    			<span>￥5900</span>
+					    		</dd>
+					    	</dl>
+					    </li>
+					    <li>
+					    	<dl>
+					    		<dt>
+					    			<img src="images/list-04.jpg">
+					    		</dt>
+					    		<dd>
+					    			<p>植物花卉004</p>
+					    			<span>￥5900</span>
+					    		</dd>
+					    	</dl>
+					    </li>						  	
+					</ul>
+    			</div>
+			</div>
+			<div class="detailRight">
+				<div class="rig-one">
+					<h2>金牌店铺，值得信赖</h2>
+					<p>花语 HUAYU</p>
+					<p>信誉：<img src="" alt=""></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+			<!-- ---footer--- -->
+	<div id="footer-wrap">
+		<footer class="cols" aos="fade-in" aos-duration="3000">
+			<div class="foot">				
+					<img src="images/car.png"/>
+						<div class="ff">
+							<p>满100元全国包邮</p>
+							<span>全场订单满100元全国包邮</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/present.png"/>
+						<div class="ff">
+							<p>下单送精美礼品</p>
+							<span>本店购买任意商品增送精美礼品</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/girl.png"/>
+						<div class="ff">
+							<p>贴心的售后服务</p>
+							<span>本店购买任意商品增送精美礼品</span>
+						</div>														
+			</div>
+			<div class="foot">				
+					<img src="images/bi.png"/>
+						<div class="ff">
+							<p>店铺优惠券</p>
+							<span>全场订单满100元全国包邮</span>
+						</div>														
+			</div>
+			<ul class="ul-01">
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						<p>消费者保障服务</p>
+						<p>七天无理由退换</p>
+						<p>假一赔三</p>
+					</div>					
+				</li>
+				<li>
+					<h2>About Change</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<img src="images/02.png" class="hua ">
+				</li>
+				<li>
+					<h2>About Change</h2>
+					<div class="yin">
+						<img src="images/yin.png" alt="">
+						<img src="images/dui.png" alt="">
+						<img src="images/zhi.png" alt="">
+					</div>
+				</li>
+				<li>
+					<h2>Online Payment</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<h2>WeChat</h2>
+					<div class="jun">
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+				</li>
+				<li>
+					<h2>Social App</h2>
+					<div>
+						<img src="images/social.jpg" alt="">
+					</div>
+				</li>
+			</ul>
+			<ul class="ul-01 ul-02">
+			    <li>
+			    	<h2>WeCh关于产品at</h2>
+					<div class="jun">
+						<p>about color</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			     <li>
+			    	<h2>关于退货</h2>
+					<div class="jun">
+						<p>about change</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			     <li>
+			    	<h2>关于产品</h2>
+					<div class="jun">
+						<p>about change</p>
+						本店商品均为易碎品，非质量问题谢绝退换，
+						如有质量问题，本店承担运费调换。
+					</div>
+			    </li>
+			    <li>
+			    	<h2>扫二维码关注</h2>
+			    	<span>about change</span>
+			    	<img src="images/er.jpg" alt="">
+			    	<p>搜索微信号：HUAYU</花语文化p>
+			    </li>
+			</ul>
+			<p>CoppyRight &copy;2020 2015花语文化传播有限公司All Right Reserved</p>
+		</footer>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="javascript/jquery-1.8.3.min.js"></script>
+<script src="javascript/swiper-3.4.2.min.js"></script>
+<script type="text/javascript" src="javascript/m_animate.js" ></script>
+<script src="javascript/bigMirror.js"></script>
+<script type="text/javascript">
+	// ----------轮播图--------------
+var mySwiper = new Swiper ('.swiper-container', {
+   autoplay: 2000,
+    loop: true,
+    autoplayDisableOnInteraction :false,
+    // effect : 'cube',
+    effect:"fade",
+    // effect : 'coverflow',
+paginationClickable: true,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+   
+  }) 
+  // 二级菜单
+ $(function(){
+ 	$(".down").click(function () {
+		$(".in").slideToggle(2000)
+	});
+	// 遮罩层
+	 $(".pic-01").click(function(){
+	 	$(".zhe-wrap")[0].style.display="block"
+	 });
+	 $("#zhe-close").click(function(){
+	 	$(".zhe-wrap")[0].style.display="none"
+	 });
+	 //吸顶效果		
+		$(window).scroll(function () {
+			if( $(document).scrollTop() > 250){
+				
+				$("#xuan-wrap")[0].style.display="block"
+			}else{
+				
+				$("#xuan-wrap")[0].style.display="none"
+			}
+		});
+		
+
+ })
+ 
+ 
+</script>
+<script type="text/jscript">
+			<!--页面逐次加载必须初始化js-->
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+</script>

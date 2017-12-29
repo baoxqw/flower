@@ -1,0 +1,11 @@
+@media screen and (min-width:1200px){
+	#top{width: 1180px;display: block;}	
+	footer{width:1180px;margin:0 auto;}		
+	nav{width:1180px;margin:0 auto;}
+	nav>#two{display: none;}			
+	nav>.in{display: none;}			
+	nav>ul{display: block;}	
+	.foot{display: none}
+	footer>.ul-01{display: block;width:1180px;}
+	
+	}
